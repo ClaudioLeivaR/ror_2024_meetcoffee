@@ -1,0 +1,99 @@
+<!--paso 1: agregar el contenido html escribiendo html5 o con el acceso rapido "!"-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Desafío Latam">
+    <!--Paso 4: agregamos los otros meta datos que nos ayudan en el posicionamiento web-->
+    <meta name="description" content="Comparte tus conocimientos tomando café">
+    <meta name="keywords" content="charlas, eventos, simposios, tecnología, co-work">
+
+    <title>meet & coffee </title>
+    <!--Paso 2: agregar el titulo que aparece en la pestaña del navegador-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+    <!--Paso 3: agregar el favico o icono de la pestaña del navegador se debe poner la imagen dentro de la carpeta IMG -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!--Paso 5: agregamos el menu con las listas (ul,ol,li) y tambien las imagenes correspondientes-->
+    <ul>
+        <li>
+            <a href="#"><img src="assets/img/coffee-cup.svg" width="50" /></a>
+
+        </li>
+        <li><a href="#">Ubicación</a></li>
+        <li><a href="#">Próxima Charla</a></li>
+        <li><a href="#">Eventos anteriores</a></li>
+        <li><a href="#">Contacto</a></li>
+    </ul>
+    <!--paso 6: En este caso utilizaremos la imagen bg-hero.png, y 2 encabezados para los dos tipos de tamaños de texto. -->
+
+    <header>
+        <h1>Descubre lo último en tecnología bebiendo café</h1>
+        <h2>Charlas, eventos y simposios sobre tecnología</h2>
+        <!--paso 7: A continuación, agreguemos los elementos de la sección con título “¿Dónde nos juntamos? y la imagen del wework: -->
+    </header>
+
+    <section>
+        <img src="assets/img/we-work.jpg" width="300" />
+        <h2>¿Dónde nos juntamos?</h2>
+        <p>Todos los martes y viernes, de 19:00 a 22:00 en We Work, Calle Baker 133,Providencia, Santiago.</p>
+    </section>
+
+    <section id="Proxima-Charla">
+        <div class="wrapper">
+            <img src="assets/img/speaker.jpg" />
+            <div class="texto">
+                <h3>Próxima charla</h3>
+                <h4>Big Data para Noobs</h4>
+                <h6>Big Data para Noobs</h6>
+                <span>
+                    Data Scientist, PhD Theoretical Physics, Carneige Mellon
+                    University.
+                </span>
+                <p>
+                    En esta charla revisaremos las técnicas y tecnologías que hacen
+                    que sea económico hacer frente a los datos a una escala extrema.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="Eventos-Anteriores">
+        <h2>Eventos Anteriores</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="assets/img/simposio-vegan.jpg" />
+                <h3>Simposio VeganDB</h3>
+            </div>
+            <div class="col-4">
+                <img src="assets/img/machine-learning.jpg" />
+                <h3>Machine learning 101</h3>
+            </div>
+            <div class="col-4">
+                <img src="assets/img/scrum-sin-scream.jpg" />
+                <h3>Scrum sin scream</h3>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <i class="fa-brands fa-square-github"></i>
+        <i class="fa-brands fa-square-x-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <p>Meet & Coffe 2018. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+
+</html>
